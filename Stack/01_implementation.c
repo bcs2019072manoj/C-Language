@@ -8,7 +8,7 @@ struct stack
     int *arr;
 };
 
-// function for check underflow
+// function for check underflow.....
 int isEmpty(struct stack *ptr)
 {
     if (ptr->top == -1)
